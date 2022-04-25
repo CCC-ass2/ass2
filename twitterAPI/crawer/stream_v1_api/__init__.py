@@ -59,7 +59,7 @@ class my_stream(tweepy.Stream):
 
     def on_data(self, raw_data):
         print(type(raw_data))
-        json_object = json.loads(raw_data,encoding='utf8')
+        json_object = json.loads(raw_data)
         stream_write_to_file(json_object, "data.txt", "data_simplified.txt")
 
     def on_connect(self):
