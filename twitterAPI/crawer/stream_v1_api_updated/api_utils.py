@@ -4,10 +4,11 @@ import re
 import tweepy
 import matplotlib.pyplot as plt
 
-def stream_write_to_file(json_object,f,simp_f,blog):
+def stream_write_to_file(json_object,f,simp_f,blog,n):
 
-    print(json_object)
+    # print(json_object)
     json.dump(json_object,f)
+    # simp_f.write("\n")
     f.flush()
 
     my_dict = {}
@@ -30,13 +31,11 @@ def stream_write_to_file(json_object,f,simp_f,blog):
     my_dict['user']['lang'] = json_object['user']['lang']
     my_dict['user']['favourites_count'] = json_object['user']['favourites_count']
     json.dump(my_dict,simp_f)
-    simp_f.write("\n#################################################\n")
+    # simp_f.write("\n")
     simp_f.flush()
 
-    n = 1
     blog.write("time:{0}\n".format(datetime.datetime.now()))
     blog.write("No.{},id:{}\n".format(n,json_object["id_str"]))
-    n+=1
     blog.flush()
 
 def read_tracker(str_datapath):
@@ -46,7 +45,7 @@ def read_tracker(str_datapath):
         for item in str_data:
             if item != '\n' and item != '':
                 list_trackers.append(item.strip('\n'))
-    print(list_trackers)
+    # print(list_trackers)
     return list_trackers
 
 
@@ -103,10 +102,13 @@ class my_stream(tweepy.Stream):
         self.f = open(file_path, 'w+', encoding='utf8')
         self.simp_f = open(fimp_filepath, 'w+', encoding='utf8')
         self.blog = open(blog_path, 'a+', encoding='utf8')
+        self.n = 0
 
     def on_data(self, raw_data):
         json_object = json.loads(raw_data)
-        stream_write_to_file(json_object, self.f, self.simp_f, self.blog)
+        self.n+=1
+        print("No.",self.n)
+        stream_write_to_file(json_object, self.f, self.simp_f, self.blog,self.n)
 
     def on_connect(self):
         print("connected to server!!!")
