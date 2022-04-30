@@ -3,18 +3,31 @@ import datetime
 import re
 import tweepy
 import matplotlib.pyplot as plt
+# import geopandas as gp
+
+def read_geojson_file(str_datapath):
+    data = gp.read_file(str_datapath)
+    print(data)
+    # with open(str_datapath, 'r', encoding='utf8') as f:
+    #     str_data = f.readlines()
+    # f.close()
+    # return str_data
+
+def geojson_processer(str_geojson):
+    obj_geojson = json.load(str_geojson)
 
 def stream_write_to_file(json_object,f,simp_f,blog,n):
 
     # print(json_object)
     json.dump(json_object,f)
-    # simp_f.write("\n")
+    f.write("\n")
     f.flush()
 
     my_dict = {}
     my_dict['id']=json_object['id']
     my_dict['lang']=json_object['lang']
     my_dict['text']=json_object['text']
+    # my_dict['full text'] = json_object['full text']
     my_dict['time']=json_object['created_at']
     my_dict['source']=json_object['source']
     my_dict['coordinates'] = json_object['coordinates']
@@ -31,7 +44,7 @@ def stream_write_to_file(json_object,f,simp_f,blog,n):
     my_dict['user']['lang'] = json_object['user']['lang']
     my_dict['user']['favourites_count'] = json_object['user']['favourites_count']
     json.dump(my_dict,simp_f)
-    # simp_f.write("\n")
+    simp_f.write("\n")
     simp_f.flush()
 
     blog.write("time:{0}\n".format(datetime.datetime.now()))
@@ -45,7 +58,7 @@ def read_tracker(str_datapath):
         for item in str_data:
             if item != '\n' and item != '':
                 list_trackers.append(item.strip('\n'))
-    # print(list_trackers)
+    print(list_trackers)
     return list_trackers
 
 
@@ -60,18 +73,20 @@ def read_locations(str_datapath):
         return list_num
 
 def location_filter(list_num):
+    length = len(list_num)
     try:
-        if len(list_num)%2!=0:
+        if length%2!=0:
             raise Exception
     except Exception as e:
        print('warning from location_filter: location data not in valid format!')
        print('warning from location_filter: raw location data twisted, last number deleted')
+       length-=1
     list_result = []
     west_border = 99999
     east_border = -99999
     south_border = 99999
     north_border = -99999
-    for i in range(0,len(list_num),2):
+    for i in range(0,length,2):
         west_border = min(west_border,list_num[i])
         east_border = max(east_border,list_num[i])
         south_border = min(south_border,list_num[i+1])
@@ -99,8 +114,8 @@ def create_stream(user_path):
 class my_stream(tweepy.Stream):
 
     def preprocess(self,file_path, fimp_filepath, blog_path):
-        self.f = open(file_path, 'w+', encoding='utf8')
-        self.simp_f = open(fimp_filepath, 'w+', encoding='utf8')
+        self.f = open(file_path, 'a+', encoding='utf8')
+        self.simp_f = open(fimp_filepath, 'a+', encoding='utf8')
         self.blog = open(blog_path, 'a+', encoding='utf8')
         self.n = 0
 

@@ -1,0 +1,14 @@
+beer
+alcohol
+vine
+brandy
+sherry
+wine
+vodka
+kirin
+drunk
+barley-bree
+liqueur
+martini
+gin flzz
+whisky
