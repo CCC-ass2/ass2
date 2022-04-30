@@ -10,7 +10,7 @@ username = "ecolismith"
 password = "Zdk123zdk123"
 host = "127.0.0.1"
 port = "5984"
-datafilepath = "simplified_data.txt"
+datafilepath = "../crawer/stream_v1_api_updated/melb_covid/simplified_data.txt"
 databasename = "testdb"
 pointerfilepath = "pointer.dat"
 
@@ -67,9 +67,11 @@ def read_num_data(datapath):
     return result
 
 couch = couchdb_connect(username,password,host,port)
-pointer = read_num_data(pointerfilepath)
-pointer,data = read_data(datafilepath, pointer)
+while True:
+    pointer = read_num_data(pointerfilepath)
+    pointer,data = read_data(datafilepath, pointer)
 # print(data)
-cover_file_data(pointerfilepath,pointer)
-for tweet in data:
-    save_to_database(tweet,couch,databasename)
+    cover_file_data(pointerfilepath,pointer)
+    for tweet in data:
+        save_to_database(tweet,couch,databasename)
+    time.sleep(10)
