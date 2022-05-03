@@ -40,8 +40,8 @@ def processed_json_dict(city_name,json_object):
     my_dict['text'] = json_object['text']
     if 'full text' in json_object:
         my_dict['full text'] = json_object['full text']
-    my_dict['time'] = json_object['created_at']
     time_dict = time_process(json_object['created_at'],city_name)
+    my_dict['time'] = time_dict
     my_dict['source'] = json_object['source']
     my_dict['coordinates'] = json_object['coordinates']
     my_dict['geo'] = json_object['geo']
@@ -83,11 +83,20 @@ def get_city_name_from_json(json_object,city_boundary_dict):
 
     return city_name
 
-def stream_write_to_file(json_object,f,simp_f,blog,n,city_boundary_dict):
+def stream_write_to_file(json_object,f,simp_f,blog,other_f,n,city_boundary_dict):
     city_name = get_city_name_from_json(json_object,city_boundary_dict)
     if city_name==None:
-        print(json_object['id'],' no locations tags, discarded')
-        return
+        if (json_object['coordinates']!=None and json_object['coordinates']!='null') or (json_object['geo']!=None and json_object['geo']!='null'):
+            print(json_object['coordinates'])
+            print(json_object['geo'])
+            json.dump(json_object, other_f)
+            other_f.write("\n\n")
+            other_f.flush()
+            print(json_object['id'],'no valid location tag but with coordinates, save raw data')
+            return
+        else:
+            print(json_object['id'], ' no locations tags, discarded')
+            return
 
     my_dict = processed_json_dict(city_name, json_object)
 
@@ -170,6 +179,7 @@ class my_stream(tweepy.Stream):
         self.f = open(result_file_path+'/rawdata.txt', 'a+', encoding='utf8')
         self.simp_f = open(result_file_path+'/processeddata.txt', 'a+', encoding='utf8')
         self.blog = open(result_file_path+'/blog.txt', 'a+', encoding='utf8')
+        self.other_f = open(result_file_path+'/other.txt', 'a+', encoding='utf8')
         self.city_dict = city_boundaries(geojson_path)
         self.n = 0
 
@@ -177,7 +187,7 @@ class my_stream(tweepy.Stream):
         json_object = json.loads(raw_data)
         self.n+=1
         print("No.",self.n)
-        stream_write_to_file(json_object, self.f, self.simp_f, self.blog,self.n,self.city_dict)
+        stream_write_to_file(json_object, self.f, self.simp_f, self.blog,self.other_f,self.n,self.city_dict)
 
     def on_connect(self):
         print("connected to server!!!")
@@ -186,6 +196,7 @@ class my_stream(tweepy.Stream):
         self.f.close()
         self.simp_f.close()
         self.blog.close()
+        self.other_f.close()
         print("disconnected!!!")
 
 def time_process(time_str,city_name):
@@ -205,9 +216,9 @@ def time_process(time_str,city_name):
         raise Exception
     time_obj = datetime.datetime.strptime(time_str,"%a %b %d %H:%M:%S %z %Y")
     time_obj = time_obj+time_delta
-    print(time_obj)
-    time_str = datetime.datetime.strftime(time_obj,"%a %b %d %H:%M:%S %z %Y")
 
+    time_str = datetime.datetime.strftime(time_obj,"%a %b %d %H:%M:%S %z %Y")
+    print(time_str)
     time_dict = {}
     time_list = time_str.split(' ')
     time_dict['weekday']=time_list[0]
