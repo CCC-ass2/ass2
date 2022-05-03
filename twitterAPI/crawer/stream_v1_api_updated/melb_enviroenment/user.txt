@@ -1,5 +1,0 @@
-consumer_key = XXTaZOERxEqasoOOQkxPHAfxg
-consumer_secret = RcgVqtdKEgleGtXpE0MJd3BBsoH8GO3Yrw2LP9bqcEmjlAqMZe
-access_token = 984995226522497024-ha7EGBlGDqGxZ5tK5cUDAMfD1qKXcIx
-access_secret = 36RGADtUruP7CYoAZSyT2sEETXhpVS7NCTbK2Y9Bx7u6L
-bear_token = AAAAAAAAAAAAAAAAAAAAAPSYbQEAAAAAFTa757ruZpaDBkNWfgj0FoC6%2FpI%3DuJj5r055nsAUmqQfLJ9gqcVtXHM1AsBqBIlF4eSezcpef5LgUo

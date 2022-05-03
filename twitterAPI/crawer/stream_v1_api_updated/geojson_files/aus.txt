@@ -1,0 +1,559 @@
+{'Name': 'Burnside (C)'}
+{'Name': 'Coonamble (A)'}
+{'Name': 'Cottesloe (T)'}
+{'Name': 'Goomalling (S)'}
+{'Name': 'Victoria Daly (R)'}
+{'Name': 'Coorow (S)'}
+{'Name': 'Central Desert (R)'}
+{'Name': 'West Tamar (M)'}
+{'Name': 'Northampton (S)'}
+{'Name': 'Macedon Ranges (S)'}
+{'Name': 'Southern Grampians (S)'}
+{'Name': 'Northam (S)'}
+{'Name': 'Blacktown (C)'}
+{'Name': 'The Coorong (DC)'}
+{'Name': 'Karratha (C)'}
+{'Name': 'Flinders Ranges (DC)'}
+{'Name': 'Claremont (T)'}
+{'Name': 'Cessnock (C)'}
+{'Name': 'Broken Hill (C)'}
+{'Name': 'Northern Grampians (S)'}
+{'Name': 'Moora (S)'}
+{'Name': 'Central Highlands (M)'}
+{'Name': 'Mitcham (C)'}
+{'Name': 'Unincorp. Other Territories'}
+{'Name': 'North Burnett (R)'}
+{'Name': 'Gilgandra (A)'}
+{'Name': 'Young (A)'}
+{'Name': 'Burke (S)'}
+{'Name': 'Greater Dandenong (C)'}
+{'Name': 'Monash (C)'}
+{'Name': 'Moreland (C)'}
+{'Name': 'Upper Lachlan Shire (A)'}
+{'Name': 'Wentworth (A)'}
+{'Name': 'Balonne (S)'}
+{'Name': 'Charles Sturt (C)'}
+{'Name': 'Narrabri (A)'}
+{'Name': 'Buloke (S)'}
+{'Name': 'Maribyrnong (C)'}
+{'Name': 'Mount Isa (C)'}
+{'Name': 'Nillumbik (S)'}
+{'Name': 'Tweed (A)'}
+{'Name': 'Hope Vale (S)'}
+{'Name': 'Maralinga Tjarutja (AC)'}
+{'Name': 'Bogan (A)'}
+{'Name': 'Inverell (A)'}
+{'Name': 'Warrumbungle Shire (A)'}
+{'Name': 'Yarra (C)'}
+{'Name': 'Pormpuraaw (S)'}
+{'Name': 'Great Lakes (A)'}
+{'Name': 'Melbourne (C)'}
+{'Name': 'Perth (C)'}
+{'Name': 'Dorset (M)'}
+{'Name': 'South Perth (C)'}
+{'Name': 'Gingin (S)'}
+{'Name': 'Waroona (S)'}
+{'Name': 'Orange (C)'}
+{'Name': 'Ku-ring-gai (A)'}
+{'Name': 'Barunga West (DC)'}
+{'Name': 'Port Phillip (C)'}
+{'Name': 'Maroondah (C)'}
+{'Name': 'Balranald (A)'}
+{'Name': 'Waratah/Wynyard (M)'}
+{'Name': 'Bellingen (A)'}
+{'Name': 'Burdekin (S)'}
+{'Name': 'Dundas (S)'}
+{'Name': 'Wyndham-East Kimberley (S)'}
+{'Name': 'Boddington (S)'}
+{'Name': 'Glenorchy (C)'}
+{'Name': 'Aurukun (S)'}
+{'Name': 'Quairading (S)'}
+{'Name': 'Etheridge (S)'}
+{'Name': 'Parkes (A)'}
+{'Name': 'Hume (C)'}
+{'Name': 'Rockingham (C)'}
+{'Name': 'Woorabinda (S)'}
+{'Name': 'Playford (C)'}
+{'Name': 'Greater Shepparton (C)'}
+{'Name': 'Alice Springs (T)'}
+{'Name': 'Berri and Barmera (DC)'}
+{'Name': 'Manjimup (S)'}
+{'Name': 'Norwood Payneham St Peters (C)'}
+{'Name': 'Singleton (A)'}
+{'Name': 'Kiama (A)'}
+{'Name': 'North Sydney (A)'}
+{'Name': 'Blue Mountains (C)'}
+{'Name': 'Tenterfield (A)'}
+{'Name': 'Randwick (C)'}
+{'Name': 'Meander Valley (M)'}
+{'Name': 'Napranum (S)'}
+{'Name': 'Joondalup (C)'}
+{'Name': 'Brimbank (C)'}
+{'Name': 'Gannawarra (S)'}
+{'Name': 'Unincorporated NT'}
+{'Name': 'Campbelltown (C)'}
+{'Name': 'Tasman (M)'}
+{'Name': 'Moree Plains (A)'}
+{'Name': 'Somerset (R)'}
+{'Name': 'Parramatta (C)'}
+{'Name': 'Croydon (S)'}
+{'Name': 'Wellington (A)'}
+{'Name': 'Boyup Brook (S)'}
+{'Name': 'Mount Barker (DC)'}
+{'Name': 'Sutherland Shire (A)'}
+{'Name': 'Jerramungup (S)'}
+{'Name': 'Leeton (A)'}
+{'Name': 'Westonia (S)'}
+{'Name': 'Quilpie (S)'}
+{'Name': 'Ashburton (S)'}
+{'Name': 'Toowoomba (R)'}
+{'Name': 'Melton (C)'}
+{'Name': 'Streaky Bay (DC)'}
+{'Name': 'Murrumbidgee (A)'}
+{'Name': 'Sydney (C)'}
+{'Name': 'Bombala (A)'}
+{'Name': 'Laverton (S)'}
+{'Name': 'Wickepin (S)'}
+{'Name': 'Roxby Downs (M)'}
+{'Name': 'Coolamon (A)'}
+{'Name': 'Port Stephens (A)'}
+{'Name': 'Benalla (RC)'}
+{'Name': 'Hobsons Bay (C)'}
+{'Name': 'Whyalla (C)'}
+{'Name': 'Mount Marshall (S)'}
+{'Name': 'Knox (C)'}
+{'Name': 'Katanning (S)'}
+{'Name': 'Kangaroo Island (DC)'}
+{'Name': 'Gundagai (A)'}
+{'Name': 'Muswellbrook (A)'}
+{'Name': 'Glenelg (S)'}
+{'Name': 'Belmont (C)'}
+{'Name': 'West Wimmera (S)'}
+{'Name': 'Banyule (C)'}
+{'Name': 'Mitchell (S)'}
+{'Name': 'Kalgoorlie/Boulder (C)'}
+{'Name': 'Blayney (A)'}
+{'Name': 'Dalwallinu (S)'}
+{'Name': 'Weddin (A)'}
+{'Name': 'Pittwater (A)'}
+{'Name': 'Fairfield (C)'}
+{'Name': 'Botany Bay (C)'}
+{'Name': 'Hawkesbury (C)'}
+{'Name': 'Kingborough (M)'}
+{'Name': 'Koorda (S)'}
+{'Name': 'Murray (S)'}
+{'Name': 'Irwin (S)'}
+{'Name': 'Cardinia (S)'}
+{'Name': 'West Torrens (C)'}
+{'Name': 'Greater Hume Shire (A)'}
+{'Name': 'Hurstville (C)'}
+{'Name': 'Katherine (T)'}
+{'Name': 'Ballarat (C)'}
+{'Name': 'Grant (DC)'}
+{'Name': 'Boorowa (A)'}
+{'Name': 'The Hills Shire (A)'}
+{'Name': 'Tumbarumba (A)'}
+{'Name': 'Wakefield (DC)'}
+{'Name': 'Mandurah (C)'}
+{'Name': 'Leichhardt (A)'}
+{'Name': 'Wyndham (C)'}
+{'Name': 'Narrandera (A)'}
+{'Name': 'Bundaberg (R)'}
+{'Name': 'Wangaratta (RC)'}
+{'Name': 'Victoria Plains (S)'}
+{'Name': 'Trayning (S)'}
+{'Name': 'Wyong (A)'}
+{'Name': 'Glen Eira (C)'}
+{'Name': 'Yalgoo (S)'}
+{'Name': 'Bass Coast (S)'}
+{'Name': 'York (S)'}
+{'Name': 'Litchfield (M)'}
+{'Name': 'Rockhampton (R)'}
+{'Name': 'Armidale Dumaresq (A)'}
+{'Name': 'Derwent Valley (M)'}
+{'Name': 'Cowra (A)'}
+{'Name': 'Coolgardie (S)'}
+{'Name': 'Canning (C)'}
+{'Name': 'Darebin (C)'}
+{'Name': 'Warringah (A)'}
+{'Name': 'Bland (A)'}
+{'Name': 'Copper Coast (DC)'}
+{'Name': 'Kalamunda (S)'}
+{'Name': 'Moonee Valley (C)'}
+{'Name': 'Charters Towers (R)'}
+{'Name': 'Whittlesea (C)'}
+{'Name': 'Onkaparinga (C)'}
+{'Name': 'Bathurst Regional (A)'}
+{'Name': 'Boroondara (C)'}
+{'Name': 'Brewarrina (A)'}
+{'Name': 'Walcha (A)'}
+{'Name': 'Queanbeyan (C)'}
+{'Name': 'Collie (S)'}
+{'Name': 'Palerang (A)'}
+{'Name': 'Chapman Valley (S)'}
+{'Name': 'Port Macquarie-Hastings (A)'}
+{'Name': 'Whitehorse (C)'}
+{'Name': 'Murchison (S)'}
+{'Name': 'Greater Bendigo (C)'}
+{'Name': 'Ngaanyatjarraku (S)'}
+{'Name': 'Lithgow (C)'}
+{'Name': 'Mosman Park (T)'}
+{'Name': 'Perenjori (S)'}
+{'Name': 'Clarence (C)'}
+{'Name': 'Noosa (S)'}
+{'Name': 'Ballina (A)'}
+{'Name': 'Denmark (S)'}
+{'Name': 'Kimba (DC)'}
+{'Name': 'Goondiwindi (R)'}
+{'Name': 'Derby-West Kimberley (S)'}
+{'Name': 'Mount Magnet (S)'}
+{'Name': 'Isaac (R)'}
+{'Name': 'Griffith (C)'}
+{'Name': 'Barossa (DC)'}
+{'Name': 'Sunshine Coast (R)'}
+{'Name': 'Murray (A)'}
+{'Name': 'Latrobe (C)'}
+{'Name': 'Port Hedland (T)'}
+{'Name': 'Menzies (S)'}
+{'Name': 'Palmerston (C)'}
+{'Name': 'Willoughby (C)'}
+{'Name': 'Rockdale (C)'}
+{'Name': 'Mareeba (S)'}
+{'Name': 'Indigo (S)'}
+{'Name': 'Yarriambiack (S)'}
+{'Name': 'Dandaragan (S)'}
+{'Name': 'Upper Hunter Shire (A)'}
+{'Name': 'Auburn (C)'}
+{'Name': 'Karoonda East Murray (DC)'}
+{'Name': 'Southern Downs (R)'}
+{'Name': 'Cairns (R)'}
+{'Name': 'Newcastle (C)'}
+{'Name': 'Wagga Wagga (C)'}
+{'Name': 'Richmond Valley (A)'}
+{'Name': 'Penrith (C)'}
+{'Name': 'Whitsunday (R)'}
+{'Name': 'Dardanup (S)'}
+{'Name': 'Hornsby (A)'}
+{'Name': 'Devonport (C)'}
+{'Name': 'Victoria Park (T)'}
+{'Name': 'Wongan-Ballidu (S)'}
+{'Name': 'Lower Eyre Peninsula (DC)'}
+{'Name': 'Hepburn (S)'}
+{'Name': 'Guyra (A)'}
+{'Name': 'Kogarah (C)'}
+{'Name': 'Burwood (A)'}
+{'Name': 'Cleve (DC)'}
+{'Name': 'Bourke (A)'}
+{'Name': 'Eurobodalla (A)'}
+{'Name': 'Swan (C)'}
+{'Name': 'Lake Grace (S)'}
+{'Name': 'Lane Cove (A)'}
+{'Name': 'Franklin Harbour (DC)'}
+{'Name': 'Longreach (R)'}
+{'Name': 'Nambucca (A)'}
+{'Name': 'Mansfield (S)'}
+{'Name': 'Shellharbour (C)'}
+{'Name': 'Brisbane (C)'}
+{'Name': 'Towong (S)'}
+{'Name': 'Loddon (S)'}
+{'Name': 'Kowanyama (S)'}
+{'Name': 'East Pilbara (S)'}
+{'Name': 'Douglas (S)'}
+{'Name': 'Winton (S)'}
+{'Name': 'Wakool (A)'}
+{'Name': 'Coober Pedy (DC)'}
+{'Name': 'Wandering (S)'}
+{'Name': 'Brookton (S)'}
+{'Name': 'Unincorporated ACT'}
+{'Name': 'Narrogin (S)'}
+{'Name': 'Doomadgee (S)'}
+{'Name': 'Woollahra (A)'}
+{'Name': 'Bassendean (T)'}
+{'Name': 'Peterborough (DC)'}
+{'Name': 'Goulburn Mulwaree (A)'}
+{'Name': 'Toodyay (S)'}
+{'Name': 'South Gippsland (S)'}
+{'Name': 'Naracoorte and Lucindale (DC)'}
+{'Name': 'Cabonne (A)'}
+{'Name': 'McKinlay (S)'}
+{'Name': 'Port Pirie City and Dists (M)'}
+{'Name': 'Subiaco (C)'}
+{'Name': 'Junee (A)'}
+{'Name': 'Mukinbudin (S)'}
+{'Name': 'Kwinana (C)'}
+{'Name': 'Armadale (C)'}
+{'Name': 'Hay (A)'}
+{'Name': 'East Arnhem (R)'}
+{'Name': 'Goyder (DC)'}
+{'Name': 'Pingelly (S)'}
+{'Name': 'Wyalkatchem (S)'}
+{'Name': 'Wellington (S)'}
+{'Name': 'Shark Bay (S)'}
+{'Name': 'Bayswater (C)'}
+{'Name': 'Fremantle (C)'}
+{'Name': 'Barkly (R)'}
+{'Name': 'Brighton (M)'}
+{'Name': 'Corrigin (S)'}
+{'Name': 'Greater Geraldton (C)'}
+{'Name': 'Marion (C)'}
+{'Name': 'Renmark Paringa (DC)'}
+{'Name': 'Yass Valley (A)'}
+{'Name': 'Glamorgan/Spring Bay (M)'}
+{'Name': 'Victor Harbor (C)'}
+{'Name': 'Barcoo (S)'}
+{'Name': 'Ararat (RC)'}
+{'Name': 'Merredin (S)'}
+{'Name': 'Circular Head (M)'}
+{'Name': 'Flinders (S)'}
+{'Name': 'Gloucester (A)'}
+{'Name': 'Gwydir (A)'}
+{'Name': 'Northern Midlands (M)'}
+{'Name': 'Loxton Waikerie (DC)'}
+{'Name': 'Carnarvon (S)'}
+{'Name': 'Upper Gascoyne (S)'}
+{'Name': 'West Arnhem (R)'}
+{'Name': 'Camden (A)'}
+{'Name': 'Bunbury (C)'}
+{'Name': 'East Fremantle (T)'}
+{'Name': 'Tatiara (DC)'}
+{'Name': 'Redland (C)'}
+{'Name': 'Mid-Western Regional (A)'}
+{'Name': 'Wollongong (C)'}
+{'Name': 'Western Downs (R)'}
+{'Name': 'Ipswich (C)'}
+{'Name': 'Light (RegC)'}
+{'Name': 'Casey (C)'}
+{'Name': 'Southern Mallee (DC)'}
+{'Name': 'Unincorporated Vic'}
+{'Name': 'Bega Valley (A)'}
+{'Name': 'Port Lincoln (C)'}
+{'Name': 'Baw Baw (S)'}
+{'Name': 'Carpentaria (S)'}
+{'Name': 'Chittering (S)'}
+{'Name': 'Gold Coast (C)'}
+{'Name': 'Yorke Peninsula (DC)'}
+{'Name': 'Gunnedah (A)'}
+{'Name': 'Central Coast (M)'}
+{'Name': 'Donnybrook-Balingup (S)'}
+{'Name': 'Warrnambool (C)'}
+{'Name': 'Kentish (M)'}
+{'Name': 'Tumut Shire (A)'}
+{'Name': 'Uralla (A)'}
+{'Name': 'Cambridge (T)'}
+{'Name': 'Kellerberrin (S)'}
+{'Name': 'Tea Tree Gully (C)'}
+{'Name': 'Mid Murray (DC)'}
+{'Name': 'Horsham (RC)'}
+{'Name': 'Weipa (T)'}
+{'Name': 'Barcaldine (R)'}
+{'Name': 'Sandstone (S)'}
+{'Name': 'Cunderdin (S)'}
+{'Name': 'Mallala (DC)'}
+{'Name': 'Hindmarsh (S)'}
+{'Name': 'Torres (S)'}
+{'Name': 'Jerilderie (A)'}
+{'Name': 'Coomalie (S)'}
+{'Name': 'Waverley (A)'}
+{'Name': 'Oberon (A)'}
+{'Name': 'Broome (S)'}
+{'Name': 'Ashfield (A)'}
+{'Name': 'Murrindindi (S)'}
+{'Name': 'Conargo (A)'}
+{'Name': 'Alexandrina (DC)'}
+{'Name': 'Cloncurry (S)'}
+{'Name': 'Three Springs (S)'}
+{'Name': 'Cranbrook (S)'}
+{'Name': 'George Town (M)'}
+{'Name': 'Darwin (C)'}
+{'Name': 'Nannup (S)'}
+{'Name': 'Huon Valley (M)'}
+{'Name': 'Dubbo (C)'}
+{'Name': 'Nedlands (C)'}
+{'Name': "Break O'Day (M)"}
+{'Name': 'Busselton (C)'}
+{'Name': 'Wodonga (RC)'}
+{'Name': 'Gnowangerup (S)'}
+{'Name': 'Central Goldfields (S)'}
+{'Name': 'Ravensthorpe (S)'}
+{'Name': 'Bruce Rock (S)'}
+{'Name': 'Wingecarribee (A)'}
+{'Name': 'Lismore (C)'}
+{'Name': 'Bankstown (C)'}
+{'Name': 'West Arthur (S)'}
+{'Name': 'Mackay (R)'}
+{'Name': 'Wagin (S)'}
+{'Name': 'Colac-Otway (S)'}
+{'Name': 'Flinders (M)'}
+{'Name': 'Maitland (C)'}
+{'Name': 'Orroroo/Carrieton (DC)'}
+{'Name': 'Lockhart River (S)'}
+{'Name': 'Walkerville (M)'}
+{'Name': 'Swan Hill (RC)'}
+{'Name': 'Hinchinbrook (S)'}
+{'Name': 'Townsville (C)'}
+{'Name': 'Campaspe (S)'}
+{'Name': 'Kingston (C)'}
+{'Name': 'Plantagenet (S)'}
+{'Name': 'Narembeen (S)'}
+{'Name': 'Marrickville (A)'}
+{'Name': 'Shoalhaven (C)'}
+{'Name': 'Holdfast Bay (C)'}
+{'Name': 'Yarra Ranges (S)'}
+{'Name': 'Frankston (C)'}
+{'Name': 'Lachlan (A)'}
+{'Name': 'Capel (S)'}
+{'Name': 'Roper Gulf (R)'}
+{'Name': 'Temora (A)'}
+{'Name': 'Yarrabah (S)'}
+{'Name': 'Beverley (S)'}
+{'Name': 'Liverpool Plains (A)'}
+{'Name': 'Cockburn (C)'}
+{'Name': 'Corowa Shire (A)'}
+{'Name': 'Yankalilla (DC)'}
+{'Name': 'Livingstone (S)'}
+{'Name': 'Richmond (S)'}
+{'Name': 'Gawler (T)'}
+{'Name': 'Cue (S)'}
+{'Name': 'Tumby Bay (DC)'}
+{'Name': 'Stirling (C)'}
+{'Name': 'West Daly (R)'}
+{'Name': 'Gladstone (R)'}
+{'Name': 'Kent (S)'}
+{'Name': 'Cobar (A)'}
+{'Name': 'Port Adelaide Enfield (C)'}
+{'Name': 'Lake Macquarie (C)'}
+{'Name': 'Gympie (R)'}
+{'Name': 'Kempsey (A)'}
+{'Name': 'Esperance (S)'}
+{'Name': 'Kingston (DC)'}
+{'Name': 'Tiwi Islands (R)'}
+{'Name': 'Strathfield (A)'}
+{'Name': 'Hobart (C)'}
+{'Name': 'Sorell (M)'}
+{'Name': 'Tablelands (R)'}
+{'Name': 'Clarence Valley (A)'}
+{'Name': 'Dumbleyung (S)'}
+{'Name': 'Manningham (C)'}
+{'Name': 'Unincorporated NSW'}
+{'Name': 'Forbes (A)'}
+{'Name': 'Adelaide (C)'}
+{'Name': 'Greater Geelong (C)'}
+{'Name': 'Murray Bridge (RC)'}
+{'Name': 'Snowy River (A)'}
+{'Name': 'Clare and Gilbert Valleys (DC)'}
+{'Name': 'Campbelltown (C)'}
+{'Name': 'Moorabool (S)'}
+{'Name': 'Kojonup (S)'}
+{'Name': 'Halls Creek (S)'}
+{'Name': 'Mount Remarkable (DC)'}
+{'Name': 'Southern Midlands (M)'}
+{'Name': 'Kyogle (A)'}
+{'Name': 'Stonnington (C)'}
+{'Name': 'Narromine (A)'}
+{'Name': 'Mingenew (S)'}
+{'Name': 'Deniliquin (A)'}
+{'Name': 'Canterbury (C)'}
+{'Name': 'Fraser Coast (R)'}
+{'Name': 'Urana (A)'}
+{'Name': 'Boulia (S)'}
+{'Name': 'Meekatharra (S)'}
+{'Name': 'Corangamite (S)'}
+{'Name': 'Dowerin (S)'}
+{'Name': 'Peppermint Grove (S)'}
+{'Name': 'Morawa (S)'}
+{'Name': 'South Burnett (R)'}
+{'Name': 'Gosford (C)'}
+{'Name': 'Tammin (S)'}
+{'Name': 'Blackall-Tambo (R)'}
+{'Name': 'Strathbogie (S)'}
+{'Name': 'Berrigan (A)'}
+{'Name': 'Mildura (RC)'}
+{'Name': 'Launceston (C)'}
+{'Name': 'Coffs Harbour (C)'}
+{'Name': 'Harden (A)'}
+{'Name': 'Elliston (DC)'}
+{'Name': 'Mornington (S)'}
+{'Name': 'Carnamah (S)'}
+{'Name': 'Pyrenees (S)'}
+{'Name': 'Cootamundra (A)'}
+{'Name': 'Carrathool (A)'}
+{'Name': 'Torres Strait Island (R)'}
+{'Name': 'Paroo (S)'}
+{'Name': 'Exmouth (S)'}
+{'Name': 'Adelaide Hills (DC)'}
+{'Name': 'Mundaring (S)'}
+{'Name': 'Banana (S)'}
+{'Name': 'Dungog (A)'}
+{'Name': 'Wattle Range (DC)'}
+{'Name': 'Gosnells (C)'}
+{'Name': 'Scenic Rim (R)'}
+{'Name': 'Albany (C)'}
+{'Name': 'Cooma-Monaro (A)'}
+{'Name': 'Serpentine-Jarrahdale (S)'}
+{'Name': 'Holroyd (C)'}
+{'Name': 'Harvey (S)'}
+{'Name': 'Augusta-Margaret River (S)'}
+{'Name': 'Wollondilly (A)'}
+{'Name': 'Tamworth Regional (A)'}
+{'Name': 'Canada Bay (A)'}
+{'Name': 'Ryde (C)'}
+{'Name': 'Latrobe (M)'}
+{'Name': 'Cassowary Coast (R)'}
+{'Name': 'Walgett (A)'}
+{'Name': 'Surf Coast (S)'}
+{'Name': 'Wiluna (S)'}
+{'Name': 'Logan (C)'}
+{'Name': 'Bulloo (S)'}
+{'Name': 'Liverpool (C)'}
+{'Name': 'Kondinin (S)'}
+{'Name': 'King Island (M)'}
+{'Name': 'Woodanilling (S)'}
+{'Name': 'Lockhart (A)'}
+{'Name': 'MacDonnell (R)'}
+{'Name': 'Maranoa (R)'}
+{'Name': 'Cook (S)'}
+{'Name': 'Unincorporated SA'}
+{'Name': 'Vincent (C)'}
+{'Name': 'Bridgetown-Greenbushes (S)'}
+{'Name': 'Robe (DC)'}
+{'Name': 'Ceduna (DC)'}
+{'Name': 'Port Augusta (C)'}
+{'Name': 'Burnie (C)'}
+{'Name': 'Unley (C)'}
+{'Name': 'Leonora (S)'}
+{'Name': 'Lockyer Valley (R)'}
+{'Name': 'Mornington Peninsula (S)'}
+{'Name': 'Wudinna (DC)'}
+{'Name': 'Wanneroo (C)'}
+{'Name': 'Belyuen (S)'}
+{'Name': 'Prospect (C)'}
+{'Name': 'Mount Alexander (S)'}
+{'Name': 'Alpine (S)'}
+{'Name': 'Glen Innes Severn (A)'}
+{'Name': 'Yilgarn (S)'}
+{'Name': 'Greater Taree (C)'}
+{'Name': 'Diamantina (S)'}
+{'Name': 'Mapoon (S)'}
+{'Name': 'Central Darling (A)'}
+{'Name': 'Warren (A)'}
+{'Name': 'Anangu Pitjantjatjara (AC)'}
+{'Name': 'Moira (S)'}
+{'Name': 'Salisbury (C)'}
+{'Name': 'Moreton Bay (R)'}
+{'Name': 'Williams (S)'}
+{'Name': 'Broomehill-Tambellup (S)'}
+{'Name': 'East Gippsland (S)'}
+{'Name': 'Golden Plains (S)'}
+{'Name': 'Murweh (S)'}
+{'Name': 'Byron (A)'}
+{'Name': 'Kulin (S)'}
+{'Name': 'Melville (C)'}
+{'Name': 'West Coast (M)'}
+{'Name': 'Cuballing (S)'}
+{'Name': 'Nungarin (S)'}
+{'Name': 'Bayside (C)'}
+{'Name': 'Moyne (S)'}
+{'Name': 'Central Highlands (R)'}
+{'Name': 'Northern Areas (DC)'}
+{'Name': 'Northern Peninsula Area (R)'}
+{'Name': 'Albury (C)'}
