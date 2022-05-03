@@ -41,7 +41,7 @@ def processed_json_dict(city_name,json_object):
     if 'full text' in json_object:
         my_dict['full text'] = json_object['full text']
     my_dict['time'] = json_object['created_at']
-    time_dict = time_process(json_object['created_at'])
+    time_dict = time_process(json_object['created_at'],city_name)
     my_dict['source'] = json_object['source']
     my_dict['coordinates'] = json_object['coordinates']
     my_dict['geo'] = json_object['geo']
@@ -86,6 +86,7 @@ def get_city_name_from_json(json_object,city_boundary_dict):
 def stream_write_to_file(json_object,f,simp_f,blog,n,city_boundary_dict):
     city_name = get_city_name_from_json(json_object,city_boundary_dict)
     if city_name==None:
+        print(json_object['id'],' no locations tags, discarded')
         return
 
     my_dict = processed_json_dict(city_name, json_object)
@@ -101,7 +102,7 @@ def stream_write_to_file(json_object,f,simp_f,blog,n,city_boundary_dict):
     blog.write("time:{0}\n".format(datetime.datetime.now()))
     blog.write("No.{},id:{}\n".format(n,json_object["id_str"]))
     blog.flush()
-    print(my_dict['id'])
+    print(my_dict['id'],' collected')
 
 def read_tracker(str_datapath):
     list_trackers = []
@@ -189,6 +190,7 @@ class my_stream(tweepy.Stream):
 
 def time_process(time_str,city_name):
     time_zone_num = int(time_str.split(' ')[4])/100
+    time_zone = None
     if city_name=='MELBOURNE' or city_name=='SYDNEY' or city_name=='BRISBANE':
         time_diff = int(10.5 - time_zone_num)
         time_delta = timedelta(hours=time_diff)
@@ -199,10 +201,9 @@ def time_process(time_str,city_name):
         time_delta = timedelta(hours=time_diff)
         time_zone = '+0900'
     else:
-        print('error in time process, city_name not valid')
+        print('error in time process, '+city_name+' not valid')
         raise Exception
     time_obj = datetime.datetime.strptime(time_str,"%a %b %d %H:%M:%S %z %Y")
-    print(time_obj)
     time_obj = time_obj+time_delta
     print(time_obj)
     time_str = datetime.datetime.strftime(time_obj,"%a %b %d %H:%M:%S %z %Y")

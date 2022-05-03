@@ -23,11 +23,11 @@ def crawer(config_file_path):
         exit(-1)
 
 if __name__ == '__main__':
-    config_file_path_1 = "configs/covid_config_starry.properties"
+    # config_file_path_1 = "configs/covid_config_starry.properties"
     config_file_path_2 = "configs/covid_config_tom.properties"
-    t1 = threading.Thread(target=crawer, args=(config_file_path_1,), name='crawer_covid_AU_starry')
-    t2 = threading.Thread(target=crawer, args=(config_file_path_2,), name='crawer_covid_AU_starry')
-    t1.start()
+    # t1 = threading.Thread(target=crawer, args=(config_file_path_1,), name='crawer_covid_AU_starry')
+    t2 = threading.Thread(target=crawer, args=(config_file_path_2,), name='crawer_covid_AU_tom')
+    # t1.start()
     t2.start()
 
 

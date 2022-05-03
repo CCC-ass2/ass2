@@ -89,7 +89,7 @@ class city_boundaries(object):
             if word =='SYDNEY' or word == 'SDY':
                 return 'SYDNEY'
             if word == 'BRISBANE' or word == 'BNE':
-                return 'BNE'
+                return 'BRISBANE'
             if word == 'ADELAIDE' or word == 'ADEL':
                 return 'ADELAIDE'
         return None
