@@ -9,6 +9,7 @@ def read_data(command):
     r = requests.get(command)
     r = r.json()
     return r
+read_data(f"http://admin:admin@{localhost}:5984/au_covid/_design/language/_view/sentiment?reduce=true&group_level=3")
 
 
 if __name__ == '__main__':

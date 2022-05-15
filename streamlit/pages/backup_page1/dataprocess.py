@@ -114,12 +114,12 @@ def melHour(work_mel, s1, e1, s2, e2, s3, e3):
     work_mel.reset_index(inplace=True)
 
     work_mel_popu = pd.merge(work_mel, population_city, on=["City"])
-    print(work_mel_popu)
+    # print(work_mel_popu)
 
     work_mel_popu["count"] = work_mel_popu["value"] / work_mel_popu["Population"]
     work_mel_popu = work_mel_popu.drop(['value'], axis=1)
     work_mel_popu = work_mel_popu.drop(['Population'], axis=1)
-    print(work_mel_popu)
+    # print(work_mel_popu)
 
     work_mel_popu = pd.DataFrame(work_mel_popu)
     work_mel_popu.reset_index(inplace=True)

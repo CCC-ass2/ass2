@@ -10,7 +10,7 @@ f = open('config.json')
 localhost = json.load(f)['IP']
 
 # read in data
-fname = r"pages\backup_page2\data.json"
+fname = "pages/backup_page2/data.json"
 if not os.path.isfile(fname):
     r = requests.get(f'http://{localhost}:8000/page2data').json()
     with open(fname, 'w') as fp:

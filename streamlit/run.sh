@@ -6,5 +6,7 @@ rm pages/backup_page3/data.json
 
 echo "All history data is deleted"
 
+pip install -r requirements.txt
+
 echo "Run frontend"
-#streamlit run main.py
+streamlit run main.py
