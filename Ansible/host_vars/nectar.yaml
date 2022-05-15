@@ -2,7 +2,7 @@
 availability_zone: melbourne-qh2-uom
 instance_image: 356ff1ed-5960-4ac2-96a1-0c0198e6a999
 instance_key_name: personal_cassiel
-instance_flavor: uom.mse.1c4g
+instance_flavor: uom.mse.2c9g
 
 
 # Volume
@@ -11,10 +11,10 @@ volumes:
     vol_size: 10
   - vol_name: demo-vol-1-2
     vol_size: 10
-  - vol_name: demo-vol-2-1
-    vol_size: 10
-  - vol_name: demo-vol-2-2
-    vol_size: 10
+  # - vol_name: demo-vol-2-1
+  #   vol_size: 10
+  # - vol_name: demo-vol-2-2
+  #   vol_size: 10
 
 # Security group
 security_groups:
@@ -33,8 +33,11 @@ security_groups:
 
 # Instance
 instances:
-  - name: demo-cassielll
+  - name: demo
+  - name: master-node
     volumes: ['demo-vol-1-1', 'demo-vol-1-2']
+  - name: crawer-node-01
+  - name: crawer-node-02
     
  
 
