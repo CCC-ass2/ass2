@@ -1,3 +1,0 @@
-emoji
-emojis
-chart_studio
