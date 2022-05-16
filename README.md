@@ -67,9 +67,9 @@ At the beginning,  our group hope to deploy backend and frontend by docker and o
 This issue exists as the terminal will be occupied and showing error information when backend/frontend running. An example is shown as follows.
 
 fastapi running...
-![alt text](https://github.com/CCC-ass2/ass2/blob/main/Image/fastapirun.png)
+![alt text](https://github.com/CCC-ass2/ass2/blob/main/Image/fastapirun.jpg)
 
 streamlit running...
-![alt text](https://github.com/CCC-ass2/ass2/blob/main/Image/strun.png)
+![alt text](https://github.com/CCC-ass2/ass2/blob/main/Image/strun.jpg)
 
 We assume this issue can be solved by containize them into docker, thus the running and error information will be shown in the container. However, as what we mentioned before, we are not able to containize it thus leacing this issue.
