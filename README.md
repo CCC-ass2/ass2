@@ -16,7 +16,7 @@
 
 ## Deployment user guide
 
-1.Deploy instances on MRC with Ansible playbook![image](https://user-images.githubusercontent.com/61914303/168500607-320dce36-4dcf-401c-b749-a2e8f84d1d93.png)
+1.Deploy instances on MRC with Ansible playbook
 
 
 #### Backend & Frontend
