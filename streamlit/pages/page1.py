@@ -66,7 +66,7 @@ def display():
 def greater_mel_twts(city1, mel1):
     fig = make_subplots(
         rows=1, cols=2,
-        subplot_titles=("Greater Cities", "Cities in Greater Melbourne (Top 10)"), specs=[[{'secondary_y': True}, {'secondary_y': True}]])
+        subplot_titles=("Greater Cities", "Cities in Greater Melbourne"), specs=[[{'secondary_y': True}, {'secondary_y': True}]])
 
     # graph1
     city1 = city1.sort_values('unemployment', ascending=False)
@@ -109,7 +109,7 @@ def greater_mel_twts(city1, mel1):
 def greater_mel_weekday(city2, mel2):
     fig = make_subplots(
         rows=1, cols=2,
-        subplot_titles=("Greater Cities", "Cities in Greater Melbourne (Top 10)"), specs=[[{'secondary_y': True}, {'secondary_y': True}]])
+        subplot_titles=("Greater Cities", "Cities in Greater Melbourne"), specs=[[{'secondary_y': True}, {'secondary_y': True}]])
 
     # graph 1
     city2 = city2.sort_values('unemployment', ascending=False)
