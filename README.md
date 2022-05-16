@@ -16,14 +16,22 @@
 
 ## Deployment user guide
 
-#### Deploy instances on MRC with Ansible playbook
+#### 1. Deploy instances on MRC with Ansible playbook
 ```
 $ git clone https://github.com/CCC-ass2/ass2  
 $ cd Ansible
 $ ./run-nectar.sh
 ```
+#### 2. Set up distributed CouchDB with docker container 
+```
+$ ./docker_db.sh
+```
+#### 3.	Set up CouchDB cluster in Master node
+```
+$ ./db_cluster.sh
+```
 
-#### Backend & Frontend
+#### 4. Backend & Frontend
 ```
 $ bash run.sh
 ```
