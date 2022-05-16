@@ -113,19 +113,22 @@ def greater_mel_weekday(city2, mel2):
 
     # graph 1
     city2 = city2.sort_values('unemployment', ascending=False)
-    fig.add_trace(go.Scatter(x=city2['city'], y=city2['weekday'], marker_color='#bac94a', mode='lines+markers+text',
-                             name='Weekday', text=[round(i,2) for i in city2['weekday']], textposition="top center"),
+    fig.add_trace(go.Bar(x=city2['city'], y=city2['weekday'], marker_color='#bac94a',
+                             name='Weekday', ),
                   secondary_y=False, row=1, col=1)
-    fig.add_trace(go.Scatter(x=city2['city'], y=city2['weekend'], marker_color='#dfc243', mode='lines+markers+text',
-                             name='Weekend', text=[round(i,2) for i in city2['weekend']], textposition="top center"),
+    fig.add_trace(go.Bar(x=city2['city'], y=city2['weekend'], marker_color='#90bc8c',
+                             name='Weekend', ),
+                  secondary_y=False, row=1, col=1)
+    fig.add_trace(go.Scatter(x=city2['city'], y=city2['unemployment'], marker_color='#dfc243', mode='lines+markers+text',
+                             name='unemployment', text=city2['unemployment'], textposition="top center"),
                   secondary_y=True, row=1, col=1)
-    fig.add_trace(go.Bar(x=city2['city'], y=city2['unemployment'], marker_color='#90bc8c',name='unemployment'),
-                  secondary_y=False, row=1, col=1)
 
     fig.update_layout(barmode='group', bargap=0.3,)
-    fig.update_yaxes(title_text="Tweet number/(10 thousands people)", secondary_y=True, row=1, col=1)
-    fig.update_yaxes(title_text="Unemployment rate (%)", secondary_y=False, row=1, col=1)
-    fig.update_yaxes(range=[0, sorted(city2['weekend'], reverse=True)[0] * 2.5], secondary_y=True, row=1, col=1)
+    fig.update_yaxes(title_text="Tweet number/(10 thousands people)", secondary_y=False, row=1, col=1)
+    fig.update_yaxes(title_text="Unemployment rate (%)", secondary_y=True, row=1, col=1)
+    fig.update_yaxes(autorange="reversed", secondary_y=True, row=1, col=1)
+
+    # fig.update_yaxes(range=[0, sorted(city2['weekend'], reverse=True)[0] * 2.5], secondary_y=True, row=1, col=1)
 
     # graph 2
     if len(mel2) > 10:

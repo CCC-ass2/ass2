@@ -181,14 +181,14 @@ def week_gr():
     gr_week_popu_une = pd.merge(gr_week_popu, dfUnemployGreater, on=["Greater city"])
     gr_week_popu_une.columns = ["city", "weekday", "weekend","unemployment"]
     return gr_week_popu_une
-    
+
 
 # Twts in Mel on the weekday & weekend 
 def wk_mel():
-    # file = "backup_page1/reduce_city_week.json"
-    # with open(file, 'r', encoding="utf-8") as f:
-    #     week = json.load(f)
-    week = read_data(f"http://admin:admin@{localhost}:5984/au_main/_design/language/_view/week_time?reduce=true&group_level=4")
+    file = "backup_page1/mrc_res1.json"
+    with open(file, 'r', encoding="utf-8") as f:
+        week = json.load(f)
+    # week = read_data(f"http://admin:admin@{localhost}:5984/au_main/_design/language/_view/week_time?reduce=true&group_level=4")
     week_city = pd.DataFrame(week["rows"])
     week_city['Greater city'] = week_city['key'].map(lambda x: x[0])
     week_city['Date'] = week_city['key'].map(lambda x: x[1])
