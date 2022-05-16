@@ -67,6 +67,7 @@ fastapi running...
 ![alt text](https://github.com/CCC-ass2/ass2/blob/main/Image/fastapirun_on_mrc.jpg)
 
 streamlit running...
+
 ![alt text](https://github.com/CCC-ass2/ass2/blob/main/Image/strun_on_mrc.jpg)
 
 ### 2. Docker
