@@ -1,6 +1,11 @@
+[server]
+enableCORS = false
+enableXsrfProtection = false
+
+
 [theme]
 primaryColor = "#826E7A"
-backgroundColor = "#AAD3DF"
-secondaryBackgroundColor = "#AAD3DF"
+backgroundColor = "#DAE2EF"
+secondaryBackgroundColor = "#8393B4"
 textColor = "#191970"
 font = "sans serif"
