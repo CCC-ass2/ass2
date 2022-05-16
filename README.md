@@ -80,6 +80,7 @@ fastapi running...
 ![alt text](https://github.com/CCC-ass2/ass2/blob/main/Image/fastapirun.jpg)
 
 streamlit running...
+
 ![alt text](https://github.com/CCC-ass2/ass2/blob/main/Image/strun.jpg)
 
 
