@@ -34,7 +34,7 @@ HourMarkers = ["{0:02d}".format(i) for i in range(24)]
 
 
 def display():
-    st.title('Stress Analysis on Twitter & Unemployment Rate')
+    st.title('Unemployment Rate & Time of Tweeting')
     st.write('This scenario mainly attempts to explore the correlation between the time people tend to tweet and the unemployment rate in different regions. The regions we chose to analyse are between four greater cities: Adelaide, Melbourne, Sydney and Brisbane, and the local government area within the Greater Melbourne. Two time dimensions are considered, the hour level and the weekday/weekend level.')
 
     with st.expander('Tweets & Employment Rate'):

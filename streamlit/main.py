@@ -11,7 +11,7 @@ st.set_page_config(layout="wide")
 with st.sidebar:
     add_radio = st.radio(
         "Analysis on livability of Melbourne",
-        ("Home", "Stress", "Emoji & Tag Usage", "Sentiment Analysis", "About us")
+        ("Home", "Tweet Time", "Emoji & Tag Usage", "Sentiment Analysis", "About us")
     )
 
 change_toml(True)
@@ -19,7 +19,7 @@ if add_radio == 'Home':
     # change_toml(True)
     st.plotly_chart(map_plot(), use_container_width=False)
     change_toml(False)
-if add_radio == 'Stress':
+if add_radio == 'Tweet Time':
     change_toml(False)
     p1display()
 elif add_radio == 'Emoji & Tag Usage':
