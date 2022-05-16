@@ -16,8 +16,12 @@
 
 ## Deployment user guide
 
-1.Deploy instances on MRC with Ansible playbook
-
+#### Deploy instances on MRC with Ansible playbook
+```
+$ git clone https://github.com/CCC-ass2/ass2  
+$ cd Ansible
+$ ./run-nectar.sh
+```
 
 #### Backend & Frontend
 ```
