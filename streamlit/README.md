@@ -41,3 +41,23 @@ $ bash run_without_deletion.sh   # default port is 8051, for using other port, r
 $ bash run.sh
 ```
 
+## Note
+If you just want to update the data, use the following steps.
+
+1. Start backend by intructions in /fastapi
+2. Extract data from fastapi
+```
+# data for page1
+$ curl -XGET "http://127.0.0.1:8000/page1data"
+
+# data for page2
+$ curl -XGET "http://127.0.0.1:8000/page2data"
+
+# data for page3
+$ curl -XGET "http://127.0.0.1:8000/page3data"
+```
+3. store data
+-- store page1data to pages/backup_page1/data.json
+-- store page2data to pages/backup_page2/data.json
+-- store page3data to pages/backup_page3/data.json
+Then start frontend.
