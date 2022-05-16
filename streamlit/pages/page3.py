@@ -48,11 +48,13 @@ def pie_chart(city, district, start_date, end_date):
     # select the whole city if no specific district is selected
     if not district or 'Select' in district:
         df1 = data.copy()
+        df1 = df1[df1["city"] == str(city).upper()]
         df1_1 = pd.pivot_table(df1, ('value'), index=['sentiment'], aggfunc=np.sum).reset_index()
         df1_1['district'] = 'All city'
     # select a specific district
     else:
         df1 = data.copy()
+        df1 = df1[df1["city"] == str(city).upper()]
         df1_1 = pd.pivot_table(df1, ('value'), index=['sentiment', 'district'], aggfunc=np.sum).reset_index()
         df1_1 = df1_1[df1_1['district'].isin(list(district))]  # update
 
