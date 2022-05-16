@@ -9,6 +9,6 @@ echo "environment set up finish"
 cd fastapi
 python main.py
 
-cd ..
-cd streamlit
-streamlit run main.py
+#cd ..
+#cd streamlit
+#streamlit run main.py
