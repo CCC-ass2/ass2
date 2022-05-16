@@ -35,7 +35,7 @@ $ pip install -r requirements.txt
 
 # There are two ways to run. Data are extracted from backend and store in the code as the consideration of 
 # efficiency. Therefore, if the user don't want to update the data, can directly run by:
-$ streamlit run main.py   # default port is 8051, for using other port, run streamlit run main.py --server.port [port]
+$ bash run_without_deletion.sh   # default port is 8051, for using other port, run streamlit run main.py --server.port [port]
 
 # The other way is remove all data and extract from backend by:
 $ bash run.sh
