@@ -2,7 +2,7 @@
 
 ## Video
 
-![alt text](https://github.com/CCC-ass2/ass2/blob/main/Image/aboutus.png)
+![alt text](https://github.com/CCC-ass2/ass2/blob/main/Image/aboutus.jpg)
 
 ## Structure
 ```
