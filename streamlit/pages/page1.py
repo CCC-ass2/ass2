@@ -154,7 +154,7 @@ def greater_mel_weekday(city2, mel2):
 def greater_mel_workhour(city3, mel3):
     fig = make_subplots(
         rows=1, cols=2,
-        subplot_titles=("Greater Cities", "Cities in Greater Melbourne (Top 10)"), specs=[[{'secondary_y': True}, {'secondary_y': True}]])
+        subplot_titles=("Greater Cities", "Cities in Greater Melbourne"), specs=[[{'secondary_y': True}, {'secondary_y': True}]])
 
     # graph 1
     city3 = city3.sort_values('unemployment', ascending=False)
