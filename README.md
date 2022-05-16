@@ -33,7 +33,15 @@ $ ./db_cluster.sh
 
 #### 4. Backend & Frontend
 ```
+# This will install all dependencies and run the backend
+# Assume the user is in ass2 directory
 $ bash run.sh
+
+# For frontend, please go to another terminal as the last one will be occupied by the backend
+# Assume the user is in ass2 directory
+$ cd streamlit
+$ bash run.sh   # for deleting the stored data
+$ bash run_without_deletion.sh    # for not deleting the stored data
 ```
 
 ## Issues
@@ -51,3 +59,17 @@ $ bash run_without_delete.sh
 ```
 
 Then you will see the result!
+
+### 2. Docker
+At the beginning,  our group hope to deploy backend and frontend by docker and on two different instances. However, due to the intranet issues, most of time we can't access two instances at the same time, thus we can't try how to deploy it. Also, it is hard for us to figure out the IP adress in such situation. Therefore, at last we just deploy it on the instance without containerize them. However, the Dockerfile is programmed and for backend it is at `ass2/fastapi/Dockerfile`, for frontend it is at `ass2/streamlit/Dockerfile`. If the user want to try, please try it. The only thing need to be mentioned is the IP address should be changed when using docker. In `ass2/fastapi/config.json`, it stores the IP Address for couchDB; in `ass2/streamlit/config.json`, it stores the IP Address of backend. So it needs to be figured out by backend(fastapi) docker.
+
+### 3. Force to use two terminals to deploy backend and frontend
+This issue exists as the terminal will be occupied and showing error information when backend/frontend running. An example is shown as follows.
+
+fastapi running...
+![alt text](https://github.com/CCC-ass2/ass2/blob/main/Image/fastapirun.png)
+
+streamlit running...
+![alt text](https://github.com/CCC-ass2/ass2/blob/main/Image/strun.png)
+
+We assume this issue can be solved by containize them into docker, thus the running and error information will be shown in the container. However, as what we mentioned before, we are not able to containize it thus leacing this issue.
