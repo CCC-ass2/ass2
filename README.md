@@ -33,6 +33,13 @@ $ ./docker_db.sh
 $ ./db_cluster.sh
 ```
 
+#### 4. map reduce
+```
+# Assume the user is in ass2 directory
+$ cd map_reduce
+$ bash reduce.sh
+```
+
 #### 4. Backend & Frontend
 ```
 # This will install all dependencies and run the backend
