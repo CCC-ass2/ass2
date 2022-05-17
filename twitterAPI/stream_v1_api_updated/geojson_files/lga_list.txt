@@ -1,0 +1,6 @@
+{"features" : {
+"SYDNEY" : ["Bayside","Blacktown","Burwood", "Camden", "Campbelltown","Canada Bay", "Canterbury Bankstown", "Cumberland", "Fairfield", "Georges River","Hornsby","Hunters Hill","Inner West", "Ku-ring-gai", "Lane Cove", "Liverpool","Mosman", "North Sydney", "Northern Beaches", "Parramatta", "Penrith", "Randwick", "Ryde", "Strathfield","Sutherland Shire", "Sydney", "The Hills Shire", "Waverley", "Willoughby", "Woollahra"],
+"MELBOURNE" : ["Banyule", "Bayside", "Boroondara", "Brimbank", "Cardinia", "Casey", "Darebin", "Frankston", "Glen Eira", "Greater Dandenong", "Hobsons Bay", "Hume", "Kingston", "Knox", "Manningham", "Maribyrnong", "Maroondah", "Melbourne", "Melton", "Monash", "Moonee Valley", "Moreland", "Mornington Peninsula", "Nillumbik", "Port Phillip", "Stonnington", "Whitehorse", "Whittlesea", "Wyndham","Yarra", "Yarra Ranges"],
+"ADELAIDE" : ["Adelaide", "Adelaide Hills", "Burnside", "Campbelltown", "Charles Sturt", "Gawler", "Holdfast Bay", "Marion", "Mitcham", "Norwood Payneham St Peters", "Onkaparinga", "Playford", "Port Adelaide Enfield", "Prospect", "Salisbury", "Tea Tree Gully", "Unley", "Walkerville","West Torrens"],
+"BRISBANE" : ["Brisbane","Ipswich","Lockyer Valley","Logan","Moreton Bay","Redland","Scenic Rim","Somerset"]}
+}

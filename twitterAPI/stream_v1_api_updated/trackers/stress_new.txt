@@ -1,0 +1,29 @@
+depression place:3f14ce28dc7c4566
+#depression place:3f14ce28dc7c4566
+depressed place:3f14ce28dc7c4566
+#depressed place:3f14ce28dc7c4566
+mental stress place:3f14ce28dc7c4566
+#mental stress place:3f14ce28dc7c4566
+under pressure place:3f14ce28dc7c4566
+#under pressure place:3f14ce28dc7c4566
+mental health place:3f14ce28dc7c4566
+#mental health awareness place:3f14ce28dc7c4566
+mental health awareness place:3f14ce28dc7c4566
+psychological pressure place:3f14ce28dc7c4566
+#psychological pressure place:3f14ce28dc7c4566
+menatal disease place:3f14ce28dc7c4566
+#mental disease place:3f14ce28dc7c4566
+mental sickness place:3f14ce28dc7c4566
+#mental sickness place:3f14ce28dc7c4566
+upset place:3f14ce28dc7c4566
+#upset place:3f14ce28dc7c4566
+distressed place:3f14ce28dc7c4566
+#distressed place:3f14ce28dc7c4566
+tormented place:3f14ce28dc7c4566
+#tormented place:3f14ce28dc7c4566
+worried place:3f14ce28dc7c4566
+#worried place:3f14ce28dc7c4566
+sad place:3f14ce28dc7c4566
+#sad place:3f14ce28dc7c4566
+
+

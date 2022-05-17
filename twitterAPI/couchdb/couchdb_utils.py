@@ -3,6 +3,18 @@ import json
 import os
 import mmap
 
+def read_configs(config_file_path):
+    f = open(config_file_path,encoding="utf8")
+    data = f.readlines();
+    config_dict = {}
+    for item in data:
+        str_list = item.replace('\n','').split('=')
+        if(len(str_list)!=2):
+            print('warning in read_configs:',str_list,' not in valid property config format')
+        else:
+            config_dict[str_list[0].strip()]=str_list[1].strip()
+    return config_dict;
+
 def couchdb_connect(username,password,host,port):
     couch = couchdb.Server("http://" + username + ":" + password + "@" + host + ":" + port + "/")
     if couch.uuids() != None:
@@ -28,7 +40,7 @@ def read_data(datafilepath,pointer):
     data = []
 
     fileSize = os.path.getsize(datafilepath)
-    startIdx = pointer
+    startIdx = 0
     endIdx = fileSize
 
     mmp = mmap.mmap(f.fileno(),0,access=mmap.ACCESS_READ)
@@ -59,6 +71,9 @@ def read_num_data(datapath):
 def get_database(database_name,couchdb_obj):
     return couchdb_obj[database_name]
 
+def set_pointer_zero(datapath):
+    f = open(datapath, 'w', encoding="utf8")
+    f.write('0')
+    f.close()
 
-# def query(command,database):
-#     database.
+
