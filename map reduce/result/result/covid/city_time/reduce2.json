@@ -1,0 +1,17 @@
+{"rows":[
+{"key":[null,"negative"],"value":12958},
+{"key":[null,"neural"],"value":96784},
+{"key":[null,"positive"],"value":32492},
+{"key":["ADELAIDE","negative"],"value":470},
+{"key":["ADELAIDE","neural"],"value":1957},
+{"key":["ADELAIDE","positive"],"value":1222},
+{"key":["BRISBANE","negative"],"value":950},
+{"key":["BRISBANE","neural"],"value":4294},
+{"key":["BRISBANE","positive"],"value":2226},
+{"key":["MELBOURNE","negative"],"value":2209},
+{"key":["MELBOURNE","neural"],"value":9153},
+{"key":["MELBOURNE","positive"],"value":5276},
+{"key":["SYDNEY","negative"],"value":1905},
+{"key":["SYDNEY","neural"],"value":10408},
+{"key":["SYDNEY","positive"],"value":5053}
+]}
