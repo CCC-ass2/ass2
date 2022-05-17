@@ -36,7 +36,7 @@ $ ./db_cluster.sh
 #### 4. map reduce
 ```
 # Assume the user is in ass2 directory
-$ cd map_reduce
+$ cd "map reduce"
 $ bash reduce.sh
 ```
 
