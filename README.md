@@ -1,6 +1,8 @@
 # CCC Assignment 2
 
 ## Video
+Part one： https://www.youtube.com/watch?v=ZQ-okI9t2wM
+Part two:  https://www.youtube.com/watch?v=ixoxx1KjIZo
 
 ![alt text](https://github.com/CCC-ass2/ass2/blob/main/Image/aboutus.jpg)
 
