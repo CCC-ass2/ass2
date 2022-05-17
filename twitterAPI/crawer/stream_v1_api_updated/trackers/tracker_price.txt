@@ -1,0 +1,9 @@
+commodityprice
+generalprice
+#commodityprice
+#generalprice
+pricesofcommodities
+commodity price
+food price
+cheap
+expensive
