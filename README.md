@@ -1,5 +1,11 @@
 # CCC Assignment 2
 
+## Frontend website
+
+ https://cccass2frontend.herokuapp.com/
+ 
+ note: for more information, please go down and see MRC issue part.
+
 ## Video
 Part one： https://www.youtube.com/watch?v=ZQ-okI9t2wM  
 Part two:  https://www.youtube.com/watch?v=ixoxx1KjIZo
@@ -57,6 +63,15 @@ $ bash run_without_deletion.sh    # for not deleting the stored data
 
 ## Issues
 ### 1. MRC issues
+----------------------- Update --------------------------
+
+I use heroku to deploy the frontend. If you want to try our frontend, please visit https://cccass2frontend.herokuapp.com/.
+
+The initialization speed may be slow. It is not due to our project, but the speed of free account of heroku.
+
+Also, the first time I visit it, it gives me some error on one of my page. But when I try again, the error disappear. I think it is the problem of heroku. So if the user find some error on a page, please go visit another page and return to the page.
+
+----------------------- Original -------------------------
 As all of our groupmates are in China, we have to use VPN to connect to MRC. That leads to a big issue. Many times we can not get access to instances. Also, at last we deploy our frontend on the instance, but we can't get access to the web link. We are not sure it is a problem of port setting up or using the intranet of MRC. Therefore, although we deploy it on MRC, we still afraid that the user will not be able to visit it. Here we offer another option to the users.
 
 At directory /streamlit, it contains all things we need to set up the webpages. As I mention in the report, due to the efficiency consideration, the processed data is stored into each /pages/backup_page[i]/data.json. The data.json is updated to the most recent data before the due day. Therefore, if the user want to see the result, just feel free to download the /streamlit file (and only this one!!), follow the step below.
